@@ -14,19 +14,20 @@
 .navbar .logo {
     display: flex;
     align-items: center;
-    color: #fff;
+    color: #431b4f;
     margin: 1rem;
 }
 
 .navbar .logo .icon {
     font-size: 3rem;
     margin-right: 1rem;
-    color: var(--primary-color);
+    color: #6b2a69 ;
 }
 
 .hamburger {
     display: none;
     padding: 1rem;
+    background: #b494bc;
 }
 
 .navbar .nav-menu {
@@ -76,6 +77,19 @@
 
     .navbar button {
         font-size: 1.8rem;
+    }
+    .navbar .buttonprimary{
+            font-family: 'Roboto', sans-serif;
+            padding: .7rem 1.5rem;
+            margin: 1rem 0;
+            background-color: var(--primary-color);
+            border: 1px solid var(--primary-color);
+            color: #f8f8f8;
+            font-size: 1rem;
+            font-weight: 500;
+            display: flex;
+            border-radius: 4px;
+            left: 65%;
     }
 
 

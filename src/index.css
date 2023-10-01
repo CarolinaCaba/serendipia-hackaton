@@ -1,8 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
 
 :root {
-  --primary-color: #0fB8e0;
-  --primary-dark: #0d2154;
+  --primary-color:  #431b4f;
+  --primary-dark:  #e86179 ;
 }
 span {
   color: var(--primary-color);
@@ -34,7 +34,7 @@ ul {
 
 a {
   text-decoration: none;
-  color: #fff;
+  color: #431b4f;
 }
 
 p {
@@ -57,22 +57,11 @@ h2 {
   position: relative;
 }
 
-button {
-  font-family: 'Roboto', sans-serif;
-  padding: .7rem 1.5rem;
-  margin: 1rem 0;
-  background-color: var(--primary-color);
-  border: 1px solid var(--primary-color);
-  color: #f8f8f8;
-  font-size: 1rem;
-  font-weight: 500;
-  display: flex;
-  border-radius: 4px;
-}
+
 
 button:hover {
-  background-color: #47dcff;
-  border: 1px solid #47dcff;
+  background-color: #f3aa7f;
+  border: 1px solid #f3aa7f;
 }
 
 @media screen and (max-width: 940px) {

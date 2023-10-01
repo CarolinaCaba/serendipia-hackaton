@@ -1,14 +1,17 @@
 .recovery {
     width: 100%;
     height: 100vh;
-    background: rgba(0, 0, 0, .4);
+    background: url('../../assets/newbackground.png')no-repeat center center/cover;
     position: relative;
+}
+ .recovery h1 {
+    text-decoration: overline;
 }
 
 .recovery:before {
     content: '';
     position: absolute;
-    background: url('../../assets/recovery-bg.png') no-repeat center center/cover;
+    background: floralwhite;
     height: 100%;
     width: 100%;
     z-index: -1;
@@ -16,25 +19,31 @@
 
 .recovery .content {
     position: absolute;
-    top: 30%;
-    width: 50%;
-    left: 0;
+    top: 15%;
+    left: 20%;
     padding: 1rem;
 }
+
 
 .recovery h2 {
     color: #f8f8f8;
 }
 
 .recovery p {
-    color: #f8f8f8;
-    margin: 1rem 0;
+    color: black;
+    content-visibility: center;
+    padding-top: 20px;
+    padding-left: 10px;
+}
+.recovery h3
+{
+    padding-bottom: 25px;
+    content-visibility: center;
+    text-decoration: underline;
+    font-size: 30px;
 }
 
-@media screen and (max-width:940px) {
-    .recovery .content {
-    width: 100%;
-    }
-}
+
+
 
 
